@@ -33,7 +33,7 @@ Y=np.ndarray([train.shape[0], 1])
 for i in range(len(train)):
     X[i]=train[i][0:-1]
     Y[i]=train[i][-1]
-
+    
 #dimensions of matrices
 m, n = X.shape
 #learning rate
